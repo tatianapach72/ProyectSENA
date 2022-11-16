@@ -1,0 +1,569 @@
+
+
+.text-belleza {
+    color: #2355AF !important;
+}
+
+.btn-belleza {
+    background-color: #fbfcff;
+    color: rgb(50, 170, 222);
+}
+
+.btn-belleza:hover {
+    background-color: rgb(4, 120, 170);
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.nav-item img {
+    width: 30px;
+}
+
+#main .carousel-inner img {
+    max-height: 85vh;
+    object-fit: cover;
+    filter: grayscale(40%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(123, 161, 188, 0.5);
+    color: #172e38;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#place-time {
+    background-color: #92d0ed;
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+#emailHelp {
+    color: rgb(160, 160, 161);
+}
+
+
+footer{
+    width: 100%;
+
+    padding:50px 0px;
+    *background-image: url("../productos/ola.svg");
+    *background-size: cover;
+    background: linear-gradient(90deg, #92d0ed, #51abd1 25%, #E26C4E);
+    -webkit-mask-image: url("../productos/ola.svg");
+    mask-image: url("../productos/ola.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+.container_footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1800px;
+height: 240px;
+margin:auto;
+margin-top: 100px;
+}
+.box__footer {
+
+    display:flex;
+     flex-direction: column;
+     padding: 10px;
+
+}
+.box__footer .logo img{
+
+    width:100px;
+    height:400 px;
+}
+
+.box__footer{
+
+max-width: 350px;
+margin-top: 20px;
+font-weight: 500;
+color: #272626;
+font-size: 18px;
+}
+.box__footer h2{
+
+    margin-bottom: 30px;
+    color:#080808;
+    font-weight: 800;
+
+}
+.box__footer a{
+margin-top: 10px;
+color: #141414;
+font-weight: 600;
+}
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fa{
+    font-size: 40px;
+}
+
+
+
+
+#footer a {
+    color: #e9e7ea;
+}
+.box__copyright{
+
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 40 px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color:#2b0ae4;
+
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+/* burbuja*/
+.burbuja{
+
+    
+    border-radius: 50%;
+    background: #eb140d;
+    
+    opacity:0.8;
+    position: absolute;
+    bottom: -150;
+   
+    animation: burbujas 3s linear infinite;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    
+
+}
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 5s;
+  
+
+}
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 7s;
+   
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    
+
+}
+.burbuja:nth-child(5){
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    animation-duration: 4s;
+   
+
+}
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 5s;
+    
+}
+.burbuja:nth-child(7){
+    width: 60px;
+    height: 60px;
+    left: 60%;
+    animation-duration: 6s;
+   
+}
+.burbuja:nth-child(8){
+    width: 10px;
+    height: 10px;
+    left: 80%;
+    animation-duration: 7s;
+   
+}
+.burbuja:nth-child(9){
+    width: 35px;
+    height: 35px;
+    left: 15%;
+    animation-duration: 4s;
+    
+}
+.burbuja:nth-child(10){
+    width: 98px;
+    height: 98px;
+    left: 55%;
+    animation-duration: 5s;
+   
+}
+@keyframes burbujas {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+      transform: translateX(30px);
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+body,
+html,
+span,
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: "Calibri";
+    color: #1E1F1D;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container__registro {
+    background-color: rgb(221, 221, 221);
+    
+    background-image: url("https://media.istockphoto.com/id/1307794659/es/foto/patr%C3%B3n-de-hex%C3%A1gonos-vectoriales-fondo-abstracto-geom%C3%A9trico-con-elementos-hexagonales-simples.jpg?s=612x612&w=0&k=20&c=E6aVWgORTJoi14mgC2yGBjaFaru48jDs57w85tH0gXw=");
+   
+    
+
+}
+.container__login {
+    background-color: rgb(221, 221, 221);
+    
+    background-image: url("https://image.shutterstock.com/image-vector/abstract-background-design-colorful-website-260nw-1760427908.jpg");
+    
+
+}
+.container__login_fondo {
+    background-color: rgb(221, 221, 221);
+    
+    background-image: url("https://media.istockphoto.com/id/1333603905/es/foto/vista-superior-de-la-mano-femenina-sosteniendo-escrituras-de-l%C3%A1piz-en-la-plantilla-de-tarjeta.jpg?s=612x612&w=0&k=20&c=mwy-mpH7O-xIcGc-Z2IV4T1zkGrY0-VWg4WW88zGlsI=");
+    
+
+}
+.nav_inicio {
+    background: linear-gradient(90deg, #92d0ed, #51abd1 25%, #E26C4E);
+
+    height: 120px;
+}
+
+.nav_inicio li a:hover{
+    background:#99ebfa;
+    opacity: .8;
+    
+    }
+.card1 {
+    font-size: 70%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(255, 253, 253);
+    background-clip: border-box;
+    border: 1px solid rgba(247, 244, 244, 0.125);
+    border-radius: 0.25rem;
+}
+
+.btn {
+    background-color: #86a09e;
+    color: rgb(253, 253, 253);
+    font-size: 80%;
+}
+
+.form-formulario {
+    background: url(productos/ingresusu.jpg)
+}
+
+.form-register {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-register h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls {
+    width: 500px;
+    background: #ECF0F1;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 5px;
+    
+    border: radius 20px;
+    font-family: 'calibri';
+    font: size 18px;
+
+}
+
+.form-register p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.form-register a {
+    color: #182220;
+    text-decoration:"none";
+    
+}
+
+.form-register .botons {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botonsfform-registr02 {
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-registr01 {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(imag/ima3.jpg)
+}
+
+.controls1 {
+    max-width: 500px;
+    padding: 4px;
+    margin-bottom: 15px;
+    font: size 18px;
+    background: #f8faf9;
+    font-family: 'calibri';
+    text-align: center;
+}
+
+.form-registr01 {
+    background: #62c3f0
+}
+
+.form-empleado {
+    background: url(imag/img005.jpg)
+}
+
+.form-registr02 {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.p-Questions {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.p-Aboutus {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    background: #6ac2af
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/fotos-premium/regalo-san-valentin-fondo-herramientas-cosmeticos-maquillaje-cosmeticos-belleza-productos-cosmeticos-faciales-paquete-lapiz-labial-sombra-ojos-flor-rosa-collar-perlas-tono-vintage_35007-256.jpg?w=2000");
+
+}
+
+.container__card {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+
+    flex-wrap: wrap;
+    color: #2355AF;
+}
+
+.card__father {
+    margin: 20px;
+
+}
+
+.card__father:hover .card1 {
+    transform: rotateY(180deg);
+
+}
+
+
+.card1 {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+
+}
+
+
+.card__front {
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.card__front,
+.card__back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+
+}
+
+.card__back {
+    transform: rotateY(180deg);
+    background: #BBFCF3;
+
+}
+
+.body__card_front {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateZ(60px);
+
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(245, 188, 188, 0.4);
+    border-radius: 20px;
+
+}
+
+.body__card_back {
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+
+}
+
+.body__card_back p {
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+
+.body__card_back input {
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #58B0F6;
+    box-shadow: 1px 1px 30px -5px #58B0F6;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+}
+
+.body__card_back input:hover {
+    box-shadow: 1px 1px 30px 0px #449de6;
+}
