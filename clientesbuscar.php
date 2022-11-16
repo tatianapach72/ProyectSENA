@@ -29,7 +29,7 @@ $datobuscar = $_GET['dato'];
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col"><center>Cedula</center></th>
+                    <th scope="col"><center>Cedula</center></th>
                     <th scope="col"><center>Nombre y Apellidos</center></th>
                     <th scope="col"><center>Email</center></th>
                     <th scope="col"><center>Ciudad</center></th>

@@ -38,8 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <div class="container">
             <div class="card">
-                <div class="card-header">
-                    <h6>Catalogo</h6>
+                <div class="card-header nav_inicio">
+                    <h5><strong>Cátalogo</strong></h5>
                     <form action="catalogobuscar.php" method="GET">
                         <div class="input-group mb-3">
                             <input type="search" class="form-control form-control-sm" name="dato" id="dato" placeholder="Buscar por Nombre o Marca">

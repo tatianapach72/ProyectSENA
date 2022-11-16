@@ -10,7 +10,7 @@
         <br/>
         <div class="container">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header nav_inicio">
                     <h6> Tabla de ventas</h6>
                     <form action="ventasbuscar.php" method="GET">
                         <div class="input-group mb-3">
@@ -29,10 +29,10 @@
                         <th scope="col"><center>No.</center></th>
                         <th scope="col"><center>Factura</center></th>
                         <th scope="col"><center>Total</center></th>
-                        <th scope="col"><center>Identificacion</center></th>
+                        <th scope="col"><center>Identificación</center></th>
                         <th scope="col"><center>Cliente</center></th>
 
-                        <th scope="col"><center>Fecha facturacion</center></th>
+                        <th scope="col"><center>Fecha facturación</center></th>
 
                         <th scope="col"><center>Ver</center></th>
 

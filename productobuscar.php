@@ -163,7 +163,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-                        <!-- ACTUALIZAR LIBRO -->
+                        <!-- ACTUALIZAR  -->
                         <td>
                             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalActualizar<?php echo $dato['p_id'] ?>">
                                 <i class='bx bxs-check-circle'></i>
@@ -173,7 +173,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <div class="modal fade" id="exampleModalActualizar<?php echo $dato['p_id'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl">
                                     <div class="modal-content">
-                                        <div class="modal-header">
+                                        <div class="modal-header ">
                                             <h5 class="modal-title" id="exampleModalActualizar<?php echo $dato['p_id'] ?>">Actualizar Producto</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
@@ -184,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                                 <div class="row">
                                                     <div class="col-md-5">
                                                         <div class="mb-3">
-                                                            <label for="exampleInputEmail1" class="form-label">Codigo</label>
+                                                            <label for="exampleInputEmail1" class="form-label">Código</label>
                                                             <input type="text" class="form-control" id="codigo" name="codigo" placeholder="Codigo del producto" value="<?php echo!empty($dato['p_codigo']) ? $dato['p_codigo'] : ''; ?>" required>
                                                             <input type="hidden" class="form-control" id="codigoviejo" name="codigoviejo"  value="<?php echo!empty($dato['p_codigo']) ? $dato['p_codigo'] : ''; ?>" required>
                                                         </div>
@@ -195,7 +195,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <label for="exampleInputEmail1" class="form-label">Categoria</label>
+                                                            <label for="exampleInputEmail1" class="form-label">Categoría</label>
                                                             <input type="text" class="form-control" id="categoria" name="categoria" placeholder="Categoria del producto" value="<?php echo!empty($dato['p_categoria']) ? $dato['p_categoria'] : ''; ?>" required>
                                                         </div>
 
@@ -222,7 +222,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                                             <input type="hidden" class="form-control" id="imagenvieja" name="imagenvieja"  value="<?php echo!empty($dato['p_foto']) ? $dato['p_foto'] : ''; ?>" required>
                                                         </div>
                                                         <div class="mb-3">
-                                                            <label for="exampleInputEmail1" class="form-label">Fecha de vencimiento</label>
+                                                            <label for="exampleInputEmail1" class="form-label">Fecha de vencimiénto</label>
                                                             <input type="date" class="form-control" id="fecha" name="fecha" placeholder="Fecha de Vencimiento"  value="<?php echo!empty($dato['p_fecha_vencimiento']) ? $dato['p_fecha_vencimiento'] : ''; ?>" required>
                                                         </div>
 

@@ -1,4 +1,3 @@
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     date_default_timezone_set('America/Bogota');
@@ -51,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <nav class="navbar navbar-expand-lg  sticky-top nav_inicio">
 
-<div class="burbujas">
+    <div class="burbujas">
         <div class="burbuja"></div>
         <div class="burbuja"></div>
         <div class="burbuja"></div>
@@ -64,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="burbuja"></div>
         <div class="burbuja"></div>
         <div class="burbuja"></div>
-  </div>
+    </div>
     <div class="container-fluid">
         <a class="navbar-brand" href="#"> <img src="productos/LogoP.png" alt="logo belleza" style="width: 30%; height: 30%;">
             <h3></h3>
@@ -98,14 +97,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </ul>
         </div>
     </div>
-   
+
 </nav>
 
 <div class="modal fade " id="exampleModalUsuario" tabindex="-1" aria-labelledby="exampleModalUsuario" aria-hidden="true">
     <div class=" modal-dialog modal-dialog-centered modal-xl ">
         <div class="modal-content container__registro">
             <div class="modal-header container__login">
-               <h5 class="modal-title" id="exampleModalUsuario"><strong>REGISTRARME</strong></h5>
+                <h5 class="modal-title" id="exampleModalUsuario"><strong>REGISTRARME</strong></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -136,7 +135,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </div>
 
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Celular</label>
+                              
                                 <input type="tel" class="form-control" id="celular" name="celular" placeholder="Ingrese su número de Celular" required>
                             </div>
 
@@ -188,40 +187,40 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-    <div class="modal fade" id="exampleModalsesion" tabindex="-1" aria-labelledby="exampleModalsesion" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered ">
-            
-            <div class="modal-content container__login_fondo">
-                <div class="modal-header container__login">
-                    <h5 class="modal-title" id="exampleModalsesion"><strong>INICIAR SESIÓN</strong></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form   ROLE="FORM" METHOD="POST" ACTION="">
-                        <input type="hidden" class="form-control" id="accion" name="accion" value="11">
+<div class="modal fade" id="exampleModalsesion" tabindex="-1" aria-labelledby="exampleModalsesion" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
 
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label"><strong>Cédula</strong></label>
-                            <input type="number" class="form-control" id="usuario" name="usuario" placeholder="Ingrese su número de Cedula" min="1" pattern="^[0-9]+" required>
-                        </div>
+        <div class="modal-content container__login_fondo">
+            <div class="modal-header container__login">
+                <h5 class="modal-title" id="exampleModalsesion"><strong>INICIAR SESIÓN</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form ROLE="FORM" METHOD="POST" ACTION="">
+                    <input type="hidden" class="form-control" id="accion" name="accion" value="11">
 
-                        <div class="mb-3">
-                            <label for="password" class="form-label"><strong>Contraseña</strong></label>
-                            <input type="password" class="form-control" id="password" name="contrasena" placeholder="Ingrese su Contraseña" required>
-                        </div>
-                        <div class="mb-4 form-check">
-                            <input type="checkbox" name="connected" class="form-check-input" onclick="verpassword()">
-                            <label for="conneted" class="form-check-label">Mostrar Contraseña</label>
-                        </div>
-                        <center><button type="submit" class="btn btn-primary">Aceptar</button></center>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"><strong>Cédula</strong></label>
+                        <input type="number" class="form-control" id="usuario" name="usuario" placeholder="Ingrese su número de Cedula" min="1" pattern="^[0-9]+" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label"><strong>Contraseña</strong></label>
+                        <input type="password" class="form-control" id="password" name="contrasena" placeholder="Ingrese su Contraseña" required>
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input" onclick="verpassword()">
+                        <label for="conneted" class="form-check-label">Mostrar Contraseña</label>
+                    </div>
+                    <center><button type="submit" class="btn btn-primary">Aceptar</button></center>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
     </div>
+</div>
 
 <script>
     function verpassword() {

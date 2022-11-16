@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <div class="container">
             <div class="card">
-                <h5 class="card-header">Información de usuario</h5>
+                <h5 class="card-header"><strong>Información de usuario</strong></h5>
                 <div class="card-body">
                     <form  ROLE="FORM" METHOD="POST" ACTION="">
                         <div class="row">
@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 </div>
                                 <div class="mb-3">
                                     
-                                    <input type="text" class="form-control" id="direccion" name="direccion"  value="<?php echo!empty($direccionadmin) ? $direccionadmin : ''; ?>" placeholder="Ingrese su Direccion" required>
+                                    <input type="text" class="form-control" id="direccion" name="direccion"  value="<?php echo!empty($direccionadmin) ? $direccionadmin : ''; ?>" placeholder="Ingrese su Dirección" required>
                                 </div>
                                 <div class="mb-3">
                                     

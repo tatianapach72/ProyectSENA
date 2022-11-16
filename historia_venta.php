@@ -5,13 +5,13 @@
     <?php include_once 'navcliente.php' ?>
     <main>
         <div class="card-header bg-primary" style="color: white;">
-            <strong>MODULO DE HISTORIAL DE VENTA</strong>
+            <strong>MÓDULO DE HISTORIAL DE COMPRAS</strong>
         </div>
         <br/>
         <div class="container">
             <div class="card">
-                <div class="card-header">
-                    <h6> Tabla de ventas</h6>
+                <div class="card-header nav_inicio">
+                    <h5><strong> Tabla de Compras</strong></h5>
                     <form action="historia_venta_buscar.php" method="GET">
                         <div class="input-group mb-3">
                             <input type="search" class="form-control form-control-sm" name="dato" id="dato" placeholder="Buscar por Factura o Fecha" >
@@ -29,7 +29,7 @@
                                 <th scope="col"><center>No.</center></th>
                         <th scope="col"><center>Factura</center></th>
                         <th scope="col"><center>Total</center></th>
-                        <th scope="col"><center>Fecha facturacion</center></th>
+                        <th scope="col"><center>Fecha facturación</center></th>
 
                         <th scope="col"><center>Ver</center></th>
 

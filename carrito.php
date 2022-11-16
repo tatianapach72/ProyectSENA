@@ -74,13 +74,13 @@ $sumatoria = $datosuma['suma'];
 <?php include_once 'navcliente.php' ?>
     <main>
         <div class="card-header bg-primary" style="color: white;">
-            <strong>MODULO DE CARRITO DE COMPRAS</strong>
+            <strong>MÓDULO DE CARRITO DE COMPRAS</strong>
         </div>
         <br/>
         <div class="container">
             <div class="card">
                 <div class="card-header">
-                    <h6> Carrito de compra </h6>
+                    <h5><strong> Carrito de compras</strong> </h5>
                 </div>
 
                 <div class="card-body">

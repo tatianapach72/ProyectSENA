@@ -44,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="container">
 
         <div class="card">
-            <div class="card-header">
-                <h6> Tabla de productos</h6>
+            <div class="card-header nav_inicio">
+                <h6> <strong> Tabla de productos </strong></h6>
                 <form action="productobuscar.php" method="GET">
                     <div class="input-group mb-3">
                         <span class="input-group-text"><button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalRegistrar">
@@ -252,7 +252,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </div>
                         </td>
 
-                        <!-- ELIMININAR LIBRO -->
+                        <!-- ELIMININAR  -->
                         <td>
                             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalEliminar<?php echo $dato['p_id'] ?>">
                                 <i class='bx bxs-trash'></i>
