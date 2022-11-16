@@ -48,6 +48,7 @@
     </div>
 
     <div class="box__copyright">
+        <br>
         <hr>
         <center><p>Todos los derechos reservados 2022
             <b>SOBE</b></center>
