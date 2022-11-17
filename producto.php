@@ -84,19 +84,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                         <div class="input-group mb-3">
                                             <label class="input-group-text" for="inputGroupSelect01">Categoria</label>
                                             <select class="form-select" id="categoria" name="categoria">
-                                                <option selected>Seleccione...</option>
+                                            <option selected>Seleccione...</option>
                                                 <option value="1">Maquillaje</option>
-                                                <option value="2">Productos faciales</option>
-                                                <option value="3">Otro</option>
+                                                <option value="2">Cuidado facial</option>
+                                                <option value="3">Cuidado corporal</option>
+                                                <option value="4">Fragancias</option>
                                             </select>
                                         </div>
                                         <div class="input-group mb-3">
                                             <label class="input-group-text" for="inputGroupSelect01">Marca</label>
                                             <select class="form-select" id="marca" name="marca">
                                                 <option selected>Seleccione...</option>
-                                                <option value="1">Avon</option>
+                                                <option value="1">Bioderma</option>
                                                 <option value="2">Esika</option>
-                                                <option value="3">Yambal</option>
+                                                <option value="3">Sefora</option>
+                                                <option value="4">Avon</option>
+                                                <option value="5">Cyzone</option>
+                                                <option value="6">Victoria secret</option>
+                                                <option value="7">Yambal</option>
                                             </select>
                                         </div>
                                         
@@ -119,7 +124,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <input type="file" class="form-control" id="imagen" name="imagen" placeholder="stock del producto" required>
                                         </div>
                                         <div class="mb-3">
-                                            <input type="date" class="form-control" id="fecha" name="fecha" min="2022-10-01" max="2024-01-01"  placeholder="Fecha de Vencimiento" required>
+                                        <label for="exampleInputEmail1" class="form-label">Fecha de Vencimiento</label>
+                                            <input type="date" class="form-control" id="fecha" name="fecha" min="2023-11-26" max="2024-01-01"  placeholder="Fecha de Vencimiento" required>
                                         </div>
                                     </div>
                                 </div>

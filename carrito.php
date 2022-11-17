@@ -158,8 +158,13 @@ foreach ($pdo->query($carrito) as $dato) {
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td><strong>IVA 19%</strong></td>
+                                <td><strong><?php 
+                                $iva = $sumatoria * 0.19;
+                                echo $iva; ?></strong></td>
+                                
                                 <td><strong>TOTAL</strong></td>
-                                <td><strong><?php echo $sumatoria; ?></strong></td>
+                                <td><strong><?php echo $sumatoria + $iva; ?></strong></td>
                                 <td></td>
                             </tr>
                         </tbody>
